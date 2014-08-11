@@ -1,0 +1,12 @@
+.goals-view ul {
+	padding: 0;
+	list-style: none;
+}
+
+.goals-view li {
+	margin: 5px 0;
+}
+
+.values-view p:first-letter {
+	text-transform: uppercase;
+}

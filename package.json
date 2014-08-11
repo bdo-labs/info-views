@@ -3,9 +3,13 @@
   "version": "0.0.0",
   "description": "Collection of small views displaying trivial information, eg. the goals of the",
   "main": "lib/index.js",
+  "style": "lib/main.css",
   "repository": "git://github.com/bdo-labs/info-views.git",
   "license": "MIT",
   "atomify": {
+    "css": {
+      "entry": "index.css"
+    },
     "js": {
       "entry": "lib/index.js"
     }
@@ -22,6 +26,7 @@
     "karma": "^0.12.16",
     "karma-browserifast": "^0.6.1",
     "karma-jasmine": "^0.1.5",
-    "partialify": "^3.1.1"
+    "partialify": "^3.1.1",
+    "styles": "git+ssh://git@github.com/bdo-labs/styles.git"
   }
 }
