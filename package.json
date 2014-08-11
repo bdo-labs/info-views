@@ -1,0 +1,27 @@
+{
+  "name": "info-views",
+  "version": "0.0.0",
+  "description": "Collection of small views displaying trivial information, eg. the goals of the",
+  "main": "lib/index.js",
+  "repository": "git://github.com/bdo-labs/info-views.git",
+  "license": "MIT",
+  "atomify": {
+    "js": {
+      "entry": "lib/index.js"
+    }
+  },
+  "browserify": {
+    "transform": [
+      "partialify"
+    ]
+  },
+  "devDependencies": {
+    "angular": "^1.2.18",
+    "angular-mocks": "^1.2.19",
+    "atomify": "^3.1.2",
+    "karma": "^0.12.16",
+    "karma-browserifast": "^0.6.1",
+    "karma-jasmine": "^0.1.5",
+    "partialify": "^3.1.1"
+  }
+}
